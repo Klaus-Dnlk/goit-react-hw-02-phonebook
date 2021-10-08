@@ -1,37 +1,18 @@
 .title {
+    text-align: center;
     font-size: 24px;
     font-weight: bold;
+    padding-top: 15px;
 }
 
 .section {
-    margin: 100px;
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    
+    background-color: #77c497;
+    border-radius: 5%;
+
+    box-shadow: 15px 15px 11px -1px rgba(34, 60, 80, 0.2);;
 }
 
-.form {
-    width: 300px;
-    padding: 15px;
-    text-align: center;
-    outline: 2px solid #000;
-}
-
-.formLabel {
-    display: flex;
-    flex-direction: column;
-    margin-bottom: 20px;
-
-    font-size: 18px;
-}
-
-.inputWindow {
-    margin-top: 10px;
-    font-size: 16px;
-    font-style: italic;
-}
-
-.btn {
-
-}
-
-.contactList {
-    font-size: 18px;
-}
