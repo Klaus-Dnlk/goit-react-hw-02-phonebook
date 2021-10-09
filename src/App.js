@@ -26,11 +26,12 @@ class App extends Component {
           alert(`${name} is already in contacts`)
       } else {
           this.setState({contact: obj});
+          this.setState((prevState) => {
+            return {
+              contacts: [...prevState.contacts, obj]
+            }})
       }
-    this.setState((prevState) => {
-      return {
-        contacts: [...prevState.contacts, obj]
-      }})
+    
   }
 
   changeFilter = e => {
